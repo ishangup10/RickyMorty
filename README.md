@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+<!--  -->
+## Development Approach
+
+**Technical Stack:**
+- This project is built using React for the frontend.
+- Redux is used for state management to handle the character data, search, and sort functionality.
+- React Router used for navigation between views.
+
+**Folder Structure:**
+- Components are organized into separate folders for better code organization.
+- Redux actions, reducers, and store setup are in the `reducer` and `action` folder.
+- API calls are made using the `axios` API.
+- Styling of the table is done using the Material UI.
+
+**Features:**
+- Implemented core features like fetching, searching, sorting, and detail view.
+- Additional bonus features such as Redux state management.
+
+## Challenges and Solutions
+
+**Challenge 1: API Integration**
+- Fetching data from the "Rick and Morty" API presented challenges like handling async actions.
+- Solution: Implemented asynchronous actions and manage API calls using axios.
+
+**Challenge 2: State Management**
+- Managing application state and keeping it in sync with Redux presented a learning curve.
+- Solution: Designed clear actions and reducers, organized code, and used Redux DevTools for debugging.
+
+**Challenge 3: Styling**
+- Creating a visually appealing user interface required thought and design decisions.
+
+Feel free to reach out with any questions or for more information.
+
